@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.form-container{
+    background: rgba(255, 255, 255, 0.781);
+    border-radius:3px ;
+    border: 1px solid #cecece;
+    box-shadow: 0 4px 8px 0 rgba(6, 6, 8, 0.2), 0 6px 20px 0 rgba(10, 10, 15, 0.19);
+}
+
+.form{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px 80px;
+}
+
+.form-Header{
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 500;
+    letter-spacing: 0.15rem;
+}
+
+.form-Group{
+    margin: 20px 0;
+    width: inherit;
+
+}
+
+.form-Group--input{
+    width: inherit;
+    height: 28px;
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #bbbbbb;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #222222;
+    
+}
+.form-Group--input::placeholder{
+    color: #464646;  
+}
+
+.form-Group--button{
+    padding: 10px 20px;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    background-color: #151a3d;
+    color: #ececec;
+    font-size: 18px;
+    letter-spacing: 0.11rem;
+    text-transform: capitalize;
+    box-shadow: 0 4px 8px 0 rgba(19, 17, 51, 0.2), 0 6px 20px 0 rgba(13, 11, 105, 0.19);
+    width: 100%;
+    cursor: pointer;
+}
+
+.form-Group--button:hover{
+    opacity: 0.97;
+}
+
+.form-register a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #070b25;
+    text-align: end;
+}
+.form-register a:hover{
+    text-decoration: underline;
+    color: #1c2662;
+
+}

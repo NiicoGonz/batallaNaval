@@ -1,0 +1,15 @@
+.register{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/background-app2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.register-container{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

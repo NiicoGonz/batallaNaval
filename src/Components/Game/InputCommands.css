@@ -1,0 +1,21 @@
+.container-actions-form input{
+    margin-right: 10px;
+    width: 260px;
+    padding: 5px 25px;
+    border: none;
+    border: 1px solid #cecece;
+    border-radius: 3px;
+}
+.container-actions-form input::placeholder {
+    text-transform: capitalize;
+}
+
+.container-actions-form input:focus{
+    outline: none;
+    border: 1px solid #9e9e9e;
+    opacity: 0.9;
+}
+
+
+
+
